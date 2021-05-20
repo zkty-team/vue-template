@@ -4,6 +4,8 @@ import router from "./router";
 import store from "./store";
 import "vant/lib/button/style";
 import Button from "vant/lib/button";
+
+// 有没写到的vant组件,请自行添加
 import {
   Skeleton,
   List,
@@ -60,9 +62,9 @@ engine.api("com.zkty.jsi.device", "getDeviceInfo", {}, (val) => {
   Vue.prototype.$deviceInfo = val;
 });
 
-import ZKTYHeader from "@zkty-team/x-engine-ui";
-import "@zkty-team/x-engine-ui/lib/ZKTYHeader.css";
-Vue.use(ZKTYHeader);
+import Header from "@zkty-team/x-engine-ui";
+import "@zkty-team/x-engine-ui/lib/Header.css";
+Vue.use(Header);
 
 import lifeCycle from "@zkty-team/x-engine-lifecycle";
 Vue.use(lifeCycle);
