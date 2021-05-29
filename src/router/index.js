@@ -1,14 +1,15 @@
+/*
+ * @Author: sheng.wang
+ * @Date: 2021-05-22 11:46:54
+ * @LastEditTime: 2021-05-29 18:12:35
+ * @LastEditors: sheng.wang
+ * @Description: 
+ * @FilePath: /vue-template/src/router/index.js
+ */
 import Vue from "vue";
-import VueRouter from "vue-router";
-import XEngineRouter from "@zkty-team/x-engine-router";
+import VueRouter from "@zkty-team/vue-router";
 
 Vue.use(VueRouter);
-
-if (process.env.NODE_ENV == "development") {
-  XEngineRouter(VueRouter, "omp");
-} else {
-  XEngineRouter(VueRouter, "microapp");
-}
 
 const routes = [
   {
