@@ -1,14 +1,6 @@
 import Vue from "vue";
-import VueRouter from "vue-router";
-import XEngineRouter from "@zkty-team/x-engine-router";
-
+import VueRouter from "@zkty-team/vue-router";
 Vue.use(VueRouter);
-
-if (process.env.NODE_ENV == "development") {
-  XEngineRouter(VueRouter, "omp");
-} else {
-  XEngineRouter(VueRouter, "microapp");
-}
 
 const routes = [
   {
