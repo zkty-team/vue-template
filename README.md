@@ -10,8 +10,8 @@ npm run build
   - Vant
   - axios
   - less
-  - @zkty-team/x-engine-lifecycle 2.8.0
-  - @zkty-team/x-engine-core      2.8.0
-  - @zkty-team/vue-router         2.8.0 
-  - @zkty-team/x-engine-ui        2.8.0
-  - @zkty-team/vuex               2.8.0
+  - @zkty-team/x-engine-lifecycle 2.8.1
+  - @zkty-team/x-engine-core      2.8.1
+  - @zkty-team/vue-router         2.8.1 
+  - @zkty-team/x-engine-ui        2.8.1
+  - @zkty-team/vuex               2.8.1
