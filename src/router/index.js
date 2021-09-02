@@ -14,6 +14,16 @@ const routes = [
     },
     component: () => import("../views/Home/index.vue"),
   },
+  {
+    path: "/testone",
+    name: "testone",
+    meta: {
+      title: "跳转演示",
+      textIsCenter: true,
+      customBgcImg: require("@/static/image/navBJ.png"),
+    },
+    component: () => import("../views/testRouter/testone.vue"),
+  }
 ];
 
 const router = new VueRouter({

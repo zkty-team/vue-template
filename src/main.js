@@ -3,7 +3,18 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "vant/lib/button/style";
-import Button from "vant/lib/button";
+
+Vue.prototype.$store = store;
+
+import Header from "@zkty-team/x-engine-ui";
+import "@zkty-team/x-engine-ui/lib/Header.css";
+Vue.use(Header);
+
+import lifeCycle from "@zkty-team/x-engine-lifecycle";
+Vue.use(lifeCycle);
+
+import VConsole from "vconsole";
+new VConsole();
 
 // 有没写到的vant组件,请自行添加
 import {
@@ -15,6 +26,7 @@ import {
   PullRefresh,
   Form,
   Field,
+  Button
 } from "vant";
 
 Vue.use(Cell);
@@ -27,9 +39,6 @@ Vue.use(Skeleton);
 Vue.use(CellGroup);
 Vue.use(PullRefresh);
 Vue.config.productionTip = false;
-
-import VConsole from "vconsole";
-new VConsole();
 
 import engine from "@zkty-team/x-engine-core";
 Vue.prototype.$engine = engine;
@@ -62,14 +71,6 @@ engine.api("com.zkty.jsi.device", "getDeviceInfo", {}, (val) => {
   Vue.prototype.$deviceInfo = val;
 });
 
-import Header from "@zkty-team/x-engine-ui";
-import "@zkty-team/x-engine-ui/lib/Header.css";
-Vue.use(Header);
-
-import lifeCycle from "@zkty-team/x-engine-lifecycle";
-Vue.use(lifeCycle);
-
-Vue.prototype.$store = store;
 new Vue({
   router,
   store,
