@@ -1663,27 +1663,27 @@
   resolved "https://registry.npmmirror.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-"@zkty-team/vue-router@^3.0.6":
+"@zkty-team/vue-router@^3.0.8":
   version "3.0.8"
   resolved "https://registry.npmmirror.com/@zkty-team/vue-router/-/vue-router-3.0.8.tgz#fb32f7ea7a2999bb6a92f9f812639f689ca04259"
   integrity sha512-2qwBmVeswJRY9SAamsCegCw/IiOZQsj9cKKtzg/rd703f2m8VMV8M7UBcLpN0PK9CvQRXVe2o/ZhgGGTf9AN8Q==
 
-"@zkty-team/vuex@^3.0.6":
+"@zkty-team/vuex@^3.0.8":
   version "3.0.8"
   resolved "https://registry.npmmirror.com/@zkty-team/vuex/-/vuex-3.0.8.tgz#06f5294f5fab5a609c8b72582c8279ba23810a40"
   integrity sha512-gx6cDGjk00iPXQTJJ5mEJkLs9JEpWEmMs57EqkjFB7dKdrm8tqClUaukE1/BUjVAFIEU5XbUssbF3AeEKe+lVg==
 
-"@zkty-team/x-engine-core@^3.0.6":
+"@zkty-team/x-engine-core@^3.0.8":
   version "3.0.8"
   resolved "https://registry.npmmirror.com/@zkty-team/x-engine-core/-/x-engine-core-3.0.8.tgz#b8780e08c6d7b6594f57d6bd64ceb09eb532aa79"
   integrity sha512-HMRtaPIgKuUKtndiZXVg0OgtuXTjkucHzkRnXUJrSA6lTGzpbFcZVhc4sCXLEJEvA9q9/DClYd8Pp/zBUKOy2g==
 
-"@zkty-team/x-engine-lifecycle@^3.0.6":
+"@zkty-team/x-engine-lifecycle@^3.0.8":
   version "3.0.8"
   resolved "https://registry.npmmirror.com/@zkty-team/x-engine-lifecycle/-/x-engine-lifecycle-3.0.8.tgz#6123e154e16723f0703b383a185b40b2bb6970dd"
   integrity sha512-bvIupHmFAUSwex8r305ycudNE0DQSe6bfn4NWT9L1kI0dmFWdz/skVJ7mycWeTgVYFQnGPErH3qcX5MwCHAg5w==
 
-"@zkty-team/x-engine-ui@^3.0.6":
+"@zkty-team/x-engine-ui@^3.0.8":
   version "3.0.8"
   resolved "https://registry.npmmirror.com/@zkty-team/x-engine-ui/-/x-engine-ui-3.0.8.tgz#79dfbd3dab4459a2eaefd08ad432f186d5850085"
   integrity sha512-RYH/hUBXgmVWeJrSnAwBBnQtSPKV89JLVX7b8uq6jlTl44CeC6ss3+TYQ0JBpkbKLFi3153XFwHP3sBTkYjuCw==
