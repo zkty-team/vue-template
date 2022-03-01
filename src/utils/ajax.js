@@ -1,8 +1,9 @@
 import axios from 'axios'
+import {BASE_URL} from './config'
 
 // 创建axios实例
 const service = axios.create({
-    baseURL: 'https://www.fastmock.site',
+    baseURL: BASE_URL,
     timeout: 50000 // 请求超时时间
 })
 
